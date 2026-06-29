@@ -1,0 +1,2 @@
+model,modality,rows_used,train_rows,test_rows,accuracy,macro_f1
+RandomForest,pose_only,579,463,116,0.27586206896551724,0.2913790089082443

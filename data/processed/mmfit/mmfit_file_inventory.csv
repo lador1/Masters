@@ -1,0 +1,303 @@
+participant,filename,path,extension,modality,side,signal,shape,dtype
+w00,w00_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w00\w00_eb_l_acc.npy,.npy,eb,l,acc,"(195502, 5)",float64
+w00,w00_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w00\w00_eb_l_gyr.npy,.npy,eb,l,gyr,"(195502, 5)",float64
+w00,w00_labels.csv,C:\Masters\data\raw\mmfit\w00\w00_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w00,w00_pose_2d.npy,C:\Masters\data\raw\mmfit\w00\w00_pose_2d.npy,.npy,pose,,pose_2d,"(2, 63918, 19)",float64
+w00,w00_pose_3d.npy,C:\Masters\data\raw\mmfit\w00\w00_pose_3d.npy,.npy,pose,,pose_3d,"(3, 63918, 18)",float64
+w00,w00_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w00\w00_sp_r_acc.npy,.npy,sp,r,acc,"(462867, 5)",float64
+w00,w00_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w00\w00_sp_r_gyr.npy,.npy,sp,r,gyr,"(462866, 5)",float64
+w00,w00_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w00\w00_sp_r_mag.npy,.npy,sp,r,mag,"(215166, 5)",float64
+w00,w00_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w00\w00_sw_l_acc.npy,.npy,sw,l,acc,"(220297, 5)",float64
+w00,w00_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w00\w00_sw_l_gyr.npy,.npy,sw,l,gyr,"(220297, 5)",float64
+w00,w00_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w00\w00_sw_l_hr.npy,.npy,sw,l,hr,"(2050, 3)",float64
+w00,w00_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w00\w00_sw_r_acc.npy,.npy,sw,r,acc,"(222395, 5)",float64
+w00,w00_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w00\w00_sw_r_gyr.npy,.npy,sw,r,gyr,"(222395, 5)",float64
+w00,w00_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w00\w00_sw_r_hr.npy,.npy,sw,r,hr,"(1999, 3)",float64
+w01,w01_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w01\w01_eb_l_acc.npy,.npy,eb,l,acc,"(206519, 5)",float64
+w01,w01_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w01\w01_eb_l_gyr.npy,.npy,eb,l,gyr,"(206519, 5)",float64
+w01,w01_labels.csv,C:\Masters\data\raw\mmfit\w01\w01_labels.csv,.csv,labels,,exercise_segments,"(32, 4)",csv
+w01,w01_pose_2d.npy,C:\Masters\data\raw\mmfit\w01\w01_pose_2d.npy,.npy,pose,,pose_2d,"(2, 73183, 19)",float64
+w01,w01_pose_3d.npy,C:\Masters\data\raw\mmfit\w01\w01_pose_3d.npy,.npy,pose,,pose_3d,"(3, 73183, 18)",float64
+w01,w01_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w01\w01_sp_r_acc.npy,.npy,sp,r,acc,"(521437, 5)",float64
+w01,w01_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w01\w01_sp_r_gyr.npy,.npy,sp,r,gyr,"(521437, 5)",float64
+w01,w01_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w01\w01_sp_r_mag.npy,.npy,sp,r,mag,"(246973, 5)",float64
+w01,w01_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w01\w01_sw_l_acc.npy,.npy,sw,l,acc,"(254017, 5)",float64
+w01,w01_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w01\w01_sw_l_gyr.npy,.npy,sw,l,gyr,"(254017, 5)",float64
+w01,w01_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w01\w01_sw_l_hr.npy,.npy,sw,l,hr,"(2444, 3)",float64
+w01,w01_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w01\w01_sw_r_acc.npy,.npy,sw,r,acc,"(256433, 5)",float64
+w01,w01_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w01\w01_sw_r_gyr.npy,.npy,sw,r,gyr,"(256433, 5)",float64
+w01,w01_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w01\w01_sw_r_hr.npy,.npy,sw,r,hr,"(2411, 3)",float64
+w02,w02_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w02\w02_eb_l_acc.npy,.npy,eb,l,acc,"(218961, 5)",float64
+w02,w02_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w02\w02_eb_l_gyr.npy,.npy,eb,l,gyr,"(218961, 5)",float64
+w02,w02_labels.csv,C:\Masters\data\raw\mmfit\w02\w02_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w02,w02_pose_2d.npy,C:\Masters\data\raw\mmfit\w02\w02_pose_2d.npy,.npy,pose,,pose_2d,"(2, 73546, 19)",float64
+w02,w02_pose_3d.npy,C:\Masters\data\raw\mmfit\w02\w02_pose_3d.npy,.npy,pose,,pose_3d,"(3, 73546, 18)",float64
+w02,w02_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w02\w02_sp_r_acc.npy,.npy,sp,r,acc,"(517948, 5)",float64
+w02,w02_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w02\w02_sp_r_gyr.npy,.npy,sp,r,gyr,"(517914, 5)",float64
+w02,w02_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w02\w02_sp_r_mag.npy,.npy,sp,r,mag,"(248749, 5)",float64
+w02,w02_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w02\w02_sw_l_acc.npy,.npy,sw,l,acc,"(254580, 5)",float64
+w02,w02_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w02\w02_sw_l_gyr.npy,.npy,sw,l,gyr,"(254580, 5)",float64
+w02,w02_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w02\w02_sw_l_hr.npy,.npy,sw,l,hr,"(2484, 3)",float64
+w02,w02_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w02\w02_sw_r_acc.npy,.npy,sw,r,acc,"(256997, 5)",float64
+w02,w02_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w02\w02_sw_r_gyr.npy,.npy,sw,r,gyr,"(256997, 5)",float64
+w02,w02_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w02\w02_sw_r_hr.npy,.npy,sw,r,hr,"(2441, 3)",float64
+w03,w03_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w03\w03_eb_l_acc.npy,.npy,eb,l,acc,"(181023, 5)",float64
+w03,w03_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w03\w03_eb_l_gyr.npy,.npy,eb,l,gyr,"(181023, 5)",float64
+w03,w03_labels.csv,C:\Masters\data\raw\mmfit\w03\w03_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w03,w03_pose_2d.npy,C:\Masters\data\raw\mmfit\w03\w03_pose_2d.npy,.npy,pose,,pose_2d,"(2, 62383, 19)",float64
+w03,w03_pose_3d.npy,C:\Masters\data\raw\mmfit\w03\w03_pose_3d.npy,.npy,pose,,pose_3d,"(3, 62383, 18)",float64
+w03,w03_sp_l_acc_0.npy,C:\Masters\data\raw\mmfit\w03\w03_sp_l_acc_0.npy,.npy,sp,l,acc,"(1058176, 5)",float64
+w03,w03_sp_l_gyr_0.npy,C:\Masters\data\raw\mmfit\w03\w03_sp_l_gyr_0.npy,.npy,sp,l,gyr,"(1058176, 5)",float64
+w03,w03_sp_l_mag_0.npy,C:\Masters\data\raw\mmfit\w03\w03_sp_l_mag_0.npy,.npy,sp,l,mag,"(139935, 5)",float64
+w03,w03_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w03\w03_sp_r_acc.npy,.npy,sp,r,acc,"(459029, 5)",float64
+w03,w03_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w03\w03_sp_r_gyr.npy,.npy,sp,r,gyr,"(459029, 5)",float64
+w03,w03_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w03\w03_sp_r_mag.npy,.npy,sp,r,mag,"(212386, 5)",float64
+w03,w03_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w03\w03_sw_l_acc.npy,.npy,sw,l,acc,"(218332, 5)",float64
+w03,w03_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w03\w03_sw_l_gyr.npy,.npy,sw,l,gyr,"(218332, 5)",float64
+w03,w03_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w03\w03_sw_l_hr.npy,.npy,sw,l,hr,"(2097, 3)",float64
+w03,w03_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w03\w03_sw_r_acc.npy,.npy,sw,r,acc,"(220411, 5)",float64
+w03,w03_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w03\w03_sw_r_gyr.npy,.npy,sw,r,gyr,"(220411, 5)",float64
+w04,w04_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w04\w04_eb_l_acc.npy,.npy,eb,l,acc,"(156924, 5)",float64
+w04,w04_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w04\w04_eb_l_gyr.npy,.npy,eb,l,gyr,"(156924, 5)",float64
+w04,w04_labels.csv,C:\Masters\data\raw\mmfit\w04\w04_labels.csv,.csv,labels,,exercise_segments,"(21, 4)",csv
+w04,w04_pose_2d.npy,C:\Masters\data\raw\mmfit\w04\w04_pose_2d.npy,.npy,pose,,pose_2d,"(2, 56130, 19)",float64
+w04,w04_pose_3d.npy,C:\Masters\data\raw\mmfit\w04\w04_pose_3d.npy,.npy,pose,,pose_3d,"(3, 56130, 18)",float64
+w04,w04_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w04\w04_sp_r_acc.npy,.npy,sp,r,acc,"(440019, 5)",float64
+w04,w04_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w04\w04_sp_r_gyr.npy,.npy,sp,r,gyr,"(440019, 5)",float64
+w04,w04_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w04\w04_sp_r_mag.npy,.npy,sp,r,mag,"(197588, 5)",float64
+w04,w04_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w04\w04_sw_l_acc.npy,.npy,sw,l,acc,"(202165, 5)",float64
+w04,w04_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w04\w04_sw_l_gyr.npy,.npy,sw,l,gyr,"(202165, 5)",float64
+w04,w04_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w04\w04_sw_l_hr.npy,.npy,sw,l,hr,"(1983, 3)",float64
+w04,w04_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w04\w04_sw_r_acc.npy,.npy,sw,r,acc,"(204086, 5)",float64
+w04,w04_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w04\w04_sw_r_gyr.npy,.npy,sw,r,gyr,"(204085, 5)",float64
+w04,w04_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w04\w04_sw_r_hr.npy,.npy,sw,r,hr,"(1973, 3)",float64
+w05,w05_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w05\w05_eb_l_acc.npy,.npy,eb,l,acc,"(156681, 5)",float64
+w05,w05_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w05\w05_eb_l_gyr.npy,.npy,eb,l,gyr,"(156681, 5)",float64
+w05,w05_labels.csv,C:\Masters\data\raw\mmfit\w05\w05_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w05,w05_pose_2d.npy,C:\Masters\data\raw\mmfit\w05\w05_pose_2d.npy,.npy,pose,,pose_2d,"(2, 57157, 19)",float64
+w05,w05_pose_3d.npy,C:\Masters\data\raw\mmfit\w05\w05_pose_3d.npy,.npy,pose,,pose_3d,"(3, 57157, 18)",float64
+w05,w05_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w05\w05_sp_r_acc.npy,.npy,sp,r,acc,"(408450, 5)",float64
+w05,w05_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w05\w05_sp_r_gyr.npy,.npy,sp,r,gyr,"(408449, 5)",float64
+w05,w05_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w05\w05_sp_r_mag.npy,.npy,sp,r,mag,"(192848, 5)",float64
+w05,w05_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w05\w05_sw_l_acc.npy,.npy,sw,l,acc,"(197665, 5)",float64
+w05,w05_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w05\w05_sw_l_gyr.npy,.npy,sw,l,gyr,"(197665, 5)",float64
+w05,w05_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w05\w05_sw_r_acc.npy,.npy,sw,r,acc,"(199547, 5)",float64
+w05,w05_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w05\w05_sw_r_gyr.npy,.npy,sw,r,gyr,"(199547, 5)",float64
+w06,w06_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w06\w06_eb_l_acc.npy,.npy,eb,l,acc,"(140923, 5)",float64
+w06,w06_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w06\w06_eb_l_gyr.npy,.npy,eb,l,gyr,"(140923, 5)",float64
+w06,w06_labels.csv,C:\Masters\data\raw\mmfit\w06\w06_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w06,w06_pose_2d.npy,C:\Masters\data\raw\mmfit\w06\w06_pose_2d.npy,.npy,pose,,pose_2d,"(2, 54027, 19)",float64
+w06,w06_pose_3d.npy,C:\Masters\data\raw\mmfit\w06\w06_pose_3d.npy,.npy,pose,,pose_3d,"(3, 54027, 18)",float64
+w06,w06_sp_l_acc_0.npy,C:\Masters\data\raw\mmfit\w06\w06_sp_l_acc_0.npy,.npy,sp,l,acc,"(915076, 5)",float64
+w06,w06_sp_l_gyr_0.npy,C:\Masters\data\raw\mmfit\w06\w06_sp_l_gyr_0.npy,.npy,sp,l,gyr,"(915076, 5)",float64
+w06,w06_sp_l_mag_0.npy,C:\Masters\data\raw\mmfit\w06\w06_sp_l_mag_0.npy,.npy,sp,l,mag,"(120207, 5)",float64
+w06,w06_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w06\w06_sp_r_acc.npy,.npy,sp,r,acc,"(398698, 5)",float64
+w06,w06_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w06\w06_sp_r_gyr.npy,.npy,sp,r,gyr,"(398699, 5)",float64
+w06,w06_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w06\w06_sp_r_mag.npy,.npy,sp,r,mag,"(184068, 5)",float64
+w06,w06_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w06\w06_sw_l_acc.npy,.npy,sw,l,acc,"(188817, 5)",float64
+w06,w06_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w06\w06_sw_l_gyr.npy,.npy,sw,l,gyr,"(188817, 5)",float64
+w06,w06_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w06\w06_sw_l_hr.npy,.npy,sw,l,hr,"(1780, 3)",float64
+w06,w06_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w06\w06_sw_r_acc.npy,.npy,sw,r,acc,"(190610, 5)",float64
+w06,w06_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w06\w06_sw_r_gyr.npy,.npy,sw,r,gyr,"(190610, 5)",float64
+w06,w06_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w06\w06_sw_r_hr.npy,.npy,sw,r,hr,"(1798, 3)",float64
+w07,w07_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w07\w07_eb_l_acc.npy,.npy,eb,l,acc,"(204735, 5)",float64
+w07,w07_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w07\w07_eb_l_gyr.npy,.npy,eb,l,gyr,"(204735, 5)",float64
+w07,w07_labels.csv,C:\Masters\data\raw\mmfit\w07\w07_labels.csv,.csv,labels,,exercise_segments,"(29, 4)",csv
+w07,w07_pose_2d.npy,C:\Masters\data\raw\mmfit\w07\w07_pose_2d.npy,.npy,pose,,pose_2d,"(2, 70556, 19)",float64
+w07,w07_pose_3d.npy,C:\Masters\data\raw\mmfit\w07\w07_pose_3d.npy,.npy,pose,,pose_3d,"(3, 70556, 18)",float64
+w07,w07_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w07\w07_sp_r_acc.npy,.npy,sp,r,acc,"(489543, 5)",float64
+w07,w07_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w07\w07_sp_r_gyr.npy,.npy,sp,r,gyr,"(489543, 5)",float64
+w07,w07_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w07\w07_sp_r_mag.npy,.npy,sp,r,mag,"(238097, 5)",float64
+w07,w07_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w07\w07_sw_l_acc.npy,.npy,sw,l,acc,"(236267, 5)",float64
+w07,w07_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w07\w07_sw_l_gyr.npy,.npy,sw,l,gyr,"(236259, 5)",float64
+w07,w07_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w07\w07_sw_l_hr.npy,.npy,sw,l,hr,"(1685, 3)",float64
+w07,w07_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w07\w07_sw_r_acc.npy,.npy,sw,r,acc,"(246265, 5)",float64
+w07,w07_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w07\w07_sw_r_gyr.npy,.npy,sw,r,gyr,"(246265, 5)",float64
+w07,w07_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w07\w07_sw_r_hr.npy,.npy,sw,r,hr,"(2390, 3)",float64
+w08,w08_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w08\w08_eb_l_acc.npy,.npy,eb,l,acc,"(162606, 5)",float64
+w08,w08_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w08\w08_eb_l_gyr.npy,.npy,eb,l,gyr,"(162606, 5)",float64
+w08,w08_labels.csv,C:\Masters\data\raw\mmfit\w08\w08_labels.csv,.csv,labels,,exercise_segments,"(32, 4)",csv
+w08,w08_pose_2d.npy,C:\Masters\data\raw\mmfit\w08\w08_pose_2d.npy,.npy,pose,,pose_2d,"(2, 57193, 19)",float64
+w08,w08_pose_3d.npy,C:\Masters\data\raw\mmfit\w08\w08_pose_3d.npy,.npy,pose,,pose_3d,"(3, 57193, 18)",float64
+w08,w08_sp_l_acc_0.npy,C:\Masters\data\raw\mmfit\w08\w08_sp_l_acc_0.npy,.npy,sp,l,acc,"(965328, 5)",float64
+w08,w08_sp_l_gyr_0.npy,C:\Masters\data\raw\mmfit\w08\w08_sp_l_gyr_0.npy,.npy,sp,l,gyr,"(965328, 5)",float64
+w08,w08_sp_l_mag_0.npy,C:\Masters\data\raw\mmfit\w08\w08_sp_l_mag_0.npy,.npy,sp,l,mag,"(123809, 5)",float64
+w08,w08_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w08\w08_sp_r_acc.npy,.npy,sp,r,acc,"(410007, 5)",float64
+w08,w08_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w08\w08_sp_r_gyr.npy,.npy,sp,r,gyr,"(410009, 5)",float64
+w08,w08_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w08\w08_sp_r_mag.npy,.npy,sp,r,mag,"(193687, 5)",float64
+w08,w08_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w08\w08_sw_l_acc.npy,.npy,sw,l,acc,"(199181, 5)",float64
+w08,w08_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w08\w08_sw_l_gyr.npy,.npy,sw,l,gyr,"(199181, 5)",float64
+w08,w08_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w08\w08_sw_l_hr.npy,.npy,sw,l,hr,"(1907, 3)",float64
+w08,w08_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w08\w08_sw_r_acc.npy,.npy,sw,r,acc,"(200258, 5)",float64
+w08,w08_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w08\w08_sw_r_gyr.npy,.npy,sw,r,gyr,"(200247, 5)",float64
+w08,w08_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w08\w08_sw_r_hr.npy,.npy,sw,r,hr,"(1884, 3)",float64
+w09,w09_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w09\w09_eb_l_acc.npy,.npy,eb,l,acc,"(312247, 5)",float64
+w09,w09_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w09\w09_eb_l_gyr.npy,.npy,eb,l,gyr,"(312247, 5)",float64
+w09,w09_labels.csv,C:\Masters\data\raw\mmfit\w09\w09_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w09,w09_pose_2d.npy,C:\Masters\data\raw\mmfit\w09\w09_pose_2d.npy,.npy,pose,,pose_2d,"(2, 104797, 19)",float64
+w09,w09_pose_3d.npy,C:\Masters\data\raw\mmfit\w09\w09_pose_3d.npy,.npy,pose,,pose_3d,"(3, 104797, 18)",float64
+w09,w09_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w09\w09_sp_r_acc.npy,.npy,sp,r,acc,"(732657, 5)",float64
+w09,w09_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w09\w09_sp_r_gyr.npy,.npy,sp,r,gyr,"(732657, 5)",float64
+w09,w09_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w09\w09_sp_r_mag.npy,.npy,sp,r,mag,"(355244, 5)",float64
+w09,w09_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w09\w09_sw_l_acc.npy,.npy,sw,l,acc,"(363862, 5)",float64
+w09,w09_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w09\w09_sw_l_gyr.npy,.npy,sw,l,gyr,"(363862, 5)",float64
+w09,w09_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w09\w09_sw_l_hr.npy,.npy,sw,l,hr,"(3544, 3)",float64
+w09,w09_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w09\w09_sw_r_acc.npy,.npy,sw,r,acc,"(367311, 5)",float64
+w09,w09_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w09\w09_sw_r_gyr.npy,.npy,sw,r,gyr,"(367311, 5)",float64
+w09,w09_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w09\w09_sw_r_hr.npy,.npy,sw,r,hr,"(3544, 3)",float64
+w10,w10_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w10\w10_eb_l_acc.npy,.npy,eb,l,acc,"(224665, 5)",float64
+w10,w10_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w10\w10_eb_l_gyr.npy,.npy,eb,l,gyr,"(224665, 5)",float64
+w10,w10_labels.csv,C:\Masters\data\raw\mmfit\w10\w10_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w10,w10_pose_2d.npy,C:\Masters\data\raw\mmfit\w10\w10_pose_2d.npy,.npy,pose,,pose_2d,"(2, 76926, 19)",float64
+w10,w10_pose_3d.npy,C:\Masters\data\raw\mmfit\w10\w10_pose_3d.npy,.npy,pose,,pose_3d,"(3, 76926, 18)",float64
+w10,w10_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w10\w10_sp_r_acc.npy,.npy,sp,r,acc,"(564418, 5)",float64
+w10,w10_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w10\w10_sp_r_gyr.npy,.npy,sp,r,gyr,"(564418, 5)",float64
+w10,w10_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w10\w10_sp_r_mag.npy,.npy,sp,r,mag,"(261821, 5)",float64
+w10,w10_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w10\w10_sw_l_acc.npy,.npy,sw,l,acc,"(269129, 5)",float64
+w10,w10_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w10\w10_sw_l_gyr.npy,.npy,sw,l,gyr,"(269129, 5)",float64
+w10,w10_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w10\w10_sw_r_acc.npy,.npy,sw,r,acc,"(271686, 5)",float64
+w10,w10_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w10\w10_sw_r_gyr.npy,.npy,sw,r,gyr,"(271686, 5)",float64
+w11,w11_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w11\w11_eb_l_acc.npy,.npy,eb,l,acc,"(175895, 5)",float64
+w11,w11_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w11\w11_eb_l_gyr.npy,.npy,eb,l,gyr,"(175895, 5)",float64
+w11,w11_labels.csv,C:\Masters\data\raw\mmfit\w11\w11_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w11,w11_pose_2d.npy,C:\Masters\data\raw\mmfit\w11\w11_pose_2d.npy,.npy,pose,,pose_2d,"(2, 61989, 19)",float64
+w11,w11_pose_3d.npy,C:\Masters\data\raw\mmfit\w11\w11_pose_3d.npy,.npy,pose,,pose_3d,"(3, 61989, 18)",float64
+w11,w11_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w11\w11_sp_r_acc.npy,.npy,sp,r,acc,"(434274, 5)",float64
+w11,w11_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w11\w11_sp_r_gyr.npy,.npy,sp,r,gyr,"(434274, 5)",float64
+w11,w11_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w11\w11_sp_r_mag.npy,.npy,sp,r,mag,"(210292, 5)",float64
+w11,w11_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w11\w11_sw_l_acc.npy,.npy,sw,l,acc,"(215305, 5)",float64
+w11,w11_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w11\w11_sw_l_gyr.npy,.npy,sw,l,gyr,"(215305, 5)",float64
+w11,w11_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w11\w11_sw_l_hr.npy,.npy,sw,l,hr,"(2087, 3)",float64
+w11,w11_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w11\w11_sw_r_acc.npy,.npy,sw,r,acc,"(217347, 5)",float64
+w11,w11_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w11\w11_sw_r_gyr.npy,.npy,sw,r,gyr,"(217347, 5)",float64
+w12,w12_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w12\w12_eb_l_acc.npy,.npy,eb,l,acc,"(202129, 5)",float64
+w12,w12_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w12\w12_eb_l_gyr.npy,.npy,eb,l,gyr,"(202129, 5)",float64
+w12,w12_labels.csv,C:\Masters\data\raw\mmfit\w12\w12_labels.csv,.csv,labels,,exercise_segments,"(22, 4)",csv
+w12,w12_pose_2d.npy,C:\Masters\data\raw\mmfit\w12\w12_pose_2d.npy,.npy,pose,,pose_2d,"(2, 67787, 19)",float64
+w12,w12_pose_3d.npy,C:\Masters\data\raw\mmfit\w12\w12_pose_3d.npy,.npy,pose,,pose_3d,"(3, 67787, 18)",float64
+w12,w12_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w12\w12_sp_r_acc.npy,.npy,sp,r,acc,"(468529, 5)",float64
+w12,w12_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w12\w12_sp_r_gyr.npy,.npy,sp,r,gyr,"(468529, 5)",float64
+w12,w12_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w12\w12_sp_r_mag.npy,.npy,sp,r,mag,"(227535, 5)",float64
+w12,w12_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w12\w12_sw_l_acc.npy,.npy,sw,l,acc,"(233290, 5)",float64
+w12,w12_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w12\w12_sw_l_gyr.npy,.npy,sw,l,gyr,"(233290, 5)",float64
+w12,w12_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w12\w12_sw_l_hr.npy,.npy,sw,l,hr,"(2260, 3)",float64
+w12,w12_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w12\w12_sw_r_acc.npy,.npy,sw,r,acc,"(235509, 5)",float64
+w12,w12_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w12\w12_sw_r_gyr.npy,.npy,sw,r,gyr,"(235509, 5)",float64
+w12,w12_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w12\w12_sw_r_hr.npy,.npy,sw,r,hr,"(2241, 3)",float64
+w13,w13_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w13\w13_eb_l_acc.npy,.npy,eb,l,acc,"(230235, 5)",float64
+w13,w13_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w13\w13_eb_l_gyr.npy,.npy,eb,l,gyr,"(230235, 5)",float64
+w13,w13_labels.csv,C:\Masters\data\raw\mmfit\w13\w13_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w13,w13_pose_2d.npy,C:\Masters\data\raw\mmfit\w13\w13_pose_2d.npy,.npy,pose,,pose_2d,"(2, 68561, 19)",float64
+w13,w13_pose_3d.npy,C:\Masters\data\raw\mmfit\w13\w13_pose_3d.npy,.npy,pose,,pose_3d,"(3, 68561, 18)",float64
+w13,w13_sp_l_acc_5.npy,C:\Masters\data\raw\mmfit\w13\w13_sp_l_acc_5.npy,.npy,sp,l,acc,"(1309486, 5)",float64
+w13,w13_sp_l_gyr_5.npy,C:\Masters\data\raw\mmfit\w13\w13_sp_l_gyr_5.npy,.npy,sp,l,gyr,"(1309480, 5)",float64
+w13,w13_sp_l_mag_5.npy,C:\Masters\data\raw\mmfit\w13\w13_sp_l_mag_5.npy,.npy,sp,l,mag,"(166914, 5)",float64
+w13,w13_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w13\w13_sp_r_acc.npy,.npy,sp,r,acc,"(547319, 5)",float64
+w13,w13_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w13\w13_sp_r_gyr.npy,.npy,sp,r,gyr,"(547319, 5)",float64
+w13,w13_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w13\w13_sp_r_mag.npy,.npy,sp,r,mag,"(265364, 5)",float64
+w13,w13_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w13\w13_sw_l_acc.npy,.npy,sw,l,acc,"(271680, 5)",float64
+w13,w13_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w13\w13_sw_l_gyr.npy,.npy,sw,l,gyr,"(271680, 5)",float64
+w13,w13_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w13\w13_sw_l_hr.npy,.npy,sw,l,hr,"(2587, 3)",float64
+w13,w13_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w13\w13_sw_r_acc.npy,.npy,sw,r,acc,"(274251, 5)",float64
+w13,w13_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w13\w13_sw_r_gyr.npy,.npy,sw,r,gyr,"(274251, 5)",float64
+w13,w13_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w13\w13_sw_r_hr.npy,.npy,sw,r,hr,"(2573, 3)",float64
+w14,w14_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w14\w14_eb_l_acc.npy,.npy,eb,l,acc,"(134106, 5)",float64
+w14,w14_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w14\w14_eb_l_gyr.npy,.npy,eb,l,gyr,"(134106, 5)",float64
+w14,w14_labels.csv,C:\Masters\data\raw\mmfit\w14\w14_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w14,w14_pose_2d.npy,C:\Masters\data\raw\mmfit\w14\w14_pose_2d.npy,.npy,pose,,pose_2d,"(2, 47997, 19)",float64
+w14,w14_pose_3d.npy,C:\Masters\data\raw\mmfit\w14\w14_pose_3d.npy,.npy,pose,,pose_3d,"(3, 47997, 18)",float64
+w14,w14_sp_l_acc_0.npy,C:\Masters\data\raw\mmfit\w14\w14_sp_l_acc_0.npy,.npy,sp,l,acc,"(808693, 5)",float64
+w14,w14_sp_l_gyr_0.npy,C:\Masters\data\raw\mmfit\w14\w14_sp_l_gyr_0.npy,.npy,sp,l,gyr,"(808693, 5)",float64
+w14,w14_sp_l_mag_0.npy,C:\Masters\data\raw\mmfit\w14\w14_sp_l_mag_0.npy,.npy,sp,l,mag,"(105125, 5)",float64
+w14,w14_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w14\w14_sp_r_acc.npy,.npy,sp,r,acc,"(345247, 5)",float64
+w14,w14_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w14\w14_sp_r_gyr.npy,.npy,sp,r,gyr,"(345247, 5)",float64
+w14,w14_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w14\w14_sp_r_mag.npy,.npy,sp,r,mag,"(165300, 5)",float64
+w14,w14_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w14\w14_sw_l_acc.npy,.npy,sw,l,acc,"(166859, 5)",float64
+w14,w14_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w14\w14_sw_l_gyr.npy,.npy,sw,l,gyr,"(166859, 5)",float64
+w14,w14_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w14\w14_sw_l_hr.npy,.npy,sw,l,hr,"(1608, 3)",float64
+w14,w14_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w14\w14_sw_r_acc.npy,.npy,sw,r,acc,"(168444, 5)",float64
+w14,w14_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w14\w14_sw_r_gyr.npy,.npy,sw,r,gyr,"(168444, 5)",float64
+w15,w15_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w15\w15_eb_l_acc.npy,.npy,eb,l,acc,"(161522, 5)",float64
+w15,w15_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w15\w15_eb_l_gyr.npy,.npy,eb,l,gyr,"(161522, 5)",float64
+w15,w15_labels.csv,C:\Masters\data\raw\mmfit\w15\w15_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w15,w15_pose_2d.npy,C:\Masters\data\raw\mmfit\w15\w15_pose_2d.npy,.npy,pose,,pose_2d,"(2, 56703, 19)",float64
+w15,w15_pose_3d.npy,C:\Masters\data\raw\mmfit\w15\w15_pose_3d.npy,.npy,pose,,pose_3d,"(3, 56703, 18)",float64
+w15,w15_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w15\w15_sp_r_acc.npy,.npy,sp,r,acc,"(405131, 5)",float64
+w15,w15_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w15\w15_sp_r_gyr.npy,.npy,sp,r,gyr,"(405129, 5)",float64
+w15,w15_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w15\w15_sp_r_mag.npy,.npy,sp,r,mag,"(194706, 5)",float64
+w15,w15_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w15\w15_sw_l_acc.npy,.npy,sw,l,acc,"(196385, 5)",float64
+w15,w15_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w15\w15_sw_l_gyr.npy,.npy,sw,l,gyr,"(196385, 5)",float64
+w15,w15_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w15\w15_sw_l_hr.npy,.npy,sw,l,hr,"(1914, 3)",float64
+w15,w15_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w15\w15_sw_r_acc.npy,.npy,sw,r,acc,"(198249, 5)",float64
+w15,w15_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w15\w15_sw_r_gyr.npy,.npy,sw,r,gyr,"(198249, 5)",float64
+w15,w15_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w15\w15_sw_r_hr.npy,.npy,sw,r,hr,"(1924, 3)",float64
+w16,w16_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w16\w16_eb_l_acc.npy,.npy,eb,l,acc,"(253344, 5)",float64
+w16,w16_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w16\w16_eb_l_gyr.npy,.npy,eb,l,gyr,"(253344, 5)",float64
+w16,w16_labels.csv,C:\Masters\data\raw\mmfit\w16\w16_labels.csv,.csv,labels,,exercise_segments,"(33, 4)",csv
+w16,w16_pose_2d.npy,C:\Masters\data\raw\mmfit\w16\w16_pose_2d.npy,.npy,pose,,pose_2d,"(2, 77491, 19)",float64
+w16,w16_pose_3d.npy,C:\Masters\data\raw\mmfit\w16\w16_pose_3d.npy,.npy,pose,,pose_3d,"(3, 77491, 18)",float64
+w16,w16_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w16\w16_sp_r_acc.npy,.npy,sp,r,acc,"(542151, 5)",float64
+w16,w16_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w16\w16_sp_r_gyr.npy,.npy,sp,r,gyr,"(542150, 5)",float64
+w16,w16_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w16\w16_sp_r_mag.npy,.npy,sp,r,mag,"(259172, 5)",float64
+w16,w16_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w16\w16_sw_l_acc.npy,.npy,sw,l,acc,"(266156, 5)",float64
+w16,w16_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w16\w16_sw_l_gyr.npy,.npy,sw,l,gyr,"(266155, 5)",float64
+w16,w16_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w16\w16_sw_l_hr.npy,.npy,sw,l,hr,"(2621, 3)",float64
+w16,w16_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w16\w16_sw_r_acc.npy,.npy,sw,r,acc,"(268682, 5)",float64
+w16,w16_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w16\w16_sw_r_gyr.npy,.npy,sw,r,gyr,"(268682, 5)",float64
+w16,w16_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w16\w16_sw_r_hr.npy,.npy,sw,r,hr,"(2578, 3)",float64
+w17,w17_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w17\w17_eb_l_acc.npy,.npy,eb,l,acc,"(142133, 5)",float64
+w17,w17_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w17\w17_eb_l_gyr.npy,.npy,eb,l,gyr,"(142133, 5)",float64
+w17,w17_labels.csv,C:\Masters\data\raw\mmfit\w17\w17_labels.csv,.csv,labels,,exercise_segments,"(34, 4)",csv
+w17,w17_pose_2d.npy,C:\Masters\data\raw\mmfit\w17\w17_pose_2d.npy,.npy,pose,,pose_2d,"(2, 64927, 19)",float64
+w17,w17_pose_3d.npy,C:\Masters\data\raw\mmfit\w17\w17_pose_3d.npy,.npy,pose,,pose_3d,"(3, 64927, 18)",float64
+w17,w17_sp_l_acc_7.npy,C:\Masters\data\raw\mmfit\w17\w17_sp_l_acc_7.npy,.npy,sp,l,acc,"(1080318, 5)",float64
+w17,w17_sp_l_gyr_7.npy,C:\Masters\data\raw\mmfit\w17\w17_sp_l_gyr_7.npy,.npy,sp,l,gyr,"(1080318, 5)",float64
+w17,w17_sp_l_mag_7.npy,C:\Masters\data\raw\mmfit\w17\w17_sp_l_mag_7.npy,.npy,sp,l,mag,"(142481, 5)",float64
+w17,w17_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w17\w17_sp_r_acc.npy,.npy,sp,r,acc,"(466073, 5)",float64
+w17,w17_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w17\w17_sp_r_gyr.npy,.npy,sp,r,gyr,"(466073, 5)",float64
+w17,w17_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w17\w17_sp_r_mag.npy,.npy,sp,r,mag,"(217221, 5)",float64
+w17,w17_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w17\w17_sw_l_acc.npy,.npy,sw,l,acc,"(222917, 5)",float64
+w17,w17_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w17\w17_sw_l_gyr.npy,.npy,sw,l,gyr,"(222917, 5)",float64
+w17,w17_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w17\w17_sw_l_hr.npy,.npy,sw,l,hr,"(2108, 3)",float64
+w17,w17_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w17\w17_sw_r_acc.npy,.npy,sw,r,acc,"(225032, 5)",float64
+w17,w17_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w17\w17_sw_r_gyr.npy,.npy,sw,r,gyr,"(225032, 5)",float64
+w17,w17_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w17\w17_sw_r_hr.npy,.npy,sw,r,hr,"(2104, 3)",float64
+w18,w18_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w18\w18_eb_l_acc.npy,.npy,eb,l,acc,"(392554, 5)",float64
+w18,w18_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w18\w18_eb_l_gyr.npy,.npy,eb,l,gyr,"(392554, 5)",float64
+w18,w18_labels.csv,C:\Masters\data\raw\mmfit\w18\w18_labels.csv,.csv,labels,,exercise_segments,"(30, 4)",csv
+w18,w18_pose_2d.npy,C:\Masters\data\raw\mmfit\w18\w18_pose_2d.npy,.npy,pose,,pose_2d,"(2, 120252, 19)",float64
+w18,w18_pose_3d.npy,C:\Masters\data\raw\mmfit\w18\w18_pose_3d.npy,.npy,pose,,pose_3d,"(3, 120252, 18)",float64
+w18,w18_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w18\w18_sp_r_acc.npy,.npy,sp,r,acc,"(842866, 5)",float64
+w18,w18_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w18\w18_sp_r_gyr.npy,.npy,sp,r,gyr,"(842866, 5)",float64
+w18,w18_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w18\w18_sp_r_mag.npy,.npy,sp,r,mag,"(401129, 5)",float64
+w18,w18_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w18\w18_sw_l_acc.npy,.npy,sw,l,acc,"(412860, 5)",float64
+w18,w18_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w18\w18_sw_l_gyr.npy,.npy,sw,l,gyr,"(412860, 5)",float64
+w18,w18_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w18\w18_sw_r_acc.npy,.npy,sw,r,acc,"(416780, 5)",float64
+w18,w18_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w18\w18_sw_r_gyr.npy,.npy,sw,r,gyr,"(416780, 5)",float64
+w19,w19_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w19\w19_eb_l_acc.npy,.npy,eb,l,acc,"(137448, 5)",float64
+w19,w19_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w19\w19_eb_l_gyr.npy,.npy,eb,l,gyr,"(137448, 5)",float64
+w19,w19_labels.csv,C:\Masters\data\raw\mmfit\w19\w19_labels.csv,.csv,labels,,exercise_segments,"(26, 4)",csv
+w19,w19_pose_2d.npy,C:\Masters\data\raw\mmfit\w19\w19_pose_2d.npy,.npy,pose,,pose_2d,"(2, 51561, 19)",float64
+w19,w19_pose_3d.npy,C:\Masters\data\raw\mmfit\w19\w19_pose_3d.npy,.npy,pose,,pose_3d,"(3, 51561, 18)",float64
+w19,w19_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w19\w19_sp_r_acc.npy,.npy,sp,r,acc,"(365571, 5)",float64
+w19,w19_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w19\w19_sp_r_gyr.npy,.npy,sp,r,gyr,"(365571, 5)",float64
+w19,w19_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w19\w19_sp_r_mag.npy,.npy,sp,r,mag,"(172766, 5)",float64
+w19,w19_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w19\w19_sw_l_acc.npy,.npy,sw,l,acc,"(177577, 5)",float64
+w19,w19_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w19\w19_sw_l_gyr.npy,.npy,sw,l,gyr,"(177577, 5)",float64
+w19,w19_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w19\w19_sw_l_hr.npy,.npy,sw,l,hr,"(1642, 3)",float64
+w19,w19_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w19\w19_sw_r_acc.npy,.npy,sw,r,acc,"(179263, 5)",float64
+w19,w19_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w19\w19_sw_r_gyr.npy,.npy,sw,r,gyr,"(179263, 5)",float64
+w20,w20_eb_l_acc.npy,C:\Masters\data\raw\mmfit\w20\w20_eb_l_acc.npy,.npy,eb,l,acc,"(185158, 5)",float64
+w20,w20_eb_l_gyr.npy,C:\Masters\data\raw\mmfit\w20\w20_eb_l_gyr.npy,.npy,eb,l,gyr,"(185158, 5)",float64
+w20,w20_labels.csv,C:\Masters\data\raw\mmfit\w20\w20_labels.csv,.csv,labels,,exercise_segments,"(27, 4)",csv
+w20,w20_pose_2d.npy,C:\Masters\data\raw\mmfit\w20\w20_pose_2d.npy,.npy,pose,,pose_2d,"(2, 93282, 19)",float64
+w20,w20_pose_3d.npy,C:\Masters\data\raw\mmfit\w20\w20_pose_3d.npy,.npy,pose,,pose_3d,"(3, 93282, 18)",float64
+w20,w20_sp_r_acc.npy,C:\Masters\data\raw\mmfit\w20\w20_sp_r_acc.npy,.npy,sp,r,acc,"(659777, 5)",float64
+w20,w20_sp_r_gyr.npy,C:\Masters\data\raw\mmfit\w20\w20_sp_r_gyr.npy,.npy,sp,r,gyr,"(659777, 5)",float64
+w20,w20_sp_r_mag.npy,C:\Masters\data\raw\mmfit\w20\w20_sp_r_mag.npy,.npy,sp,r,mag,"(311725, 5)",float64
+w20,w20_sw_l_acc.npy,C:\Masters\data\raw\mmfit\w20\w20_sw_l_acc.npy,.npy,sw,l,acc,"(320278, 5)",float64
+w20,w20_sw_l_gyr.npy,C:\Masters\data\raw\mmfit\w20\w20_sw_l_gyr.npy,.npy,sw,l,gyr,"(320277, 5)",float64
+w20,w20_sw_l_hr.npy,C:\Masters\data\raw\mmfit\w20\w20_sw_l_hr.npy,.npy,sw,l,hr,"(3015, 3)",float64
+w20,w20_sw_r_acc.npy,C:\Masters\data\raw\mmfit\w20\w20_sw_r_acc.npy,.npy,sw,r,acc,"(323314, 5)",float64
+w20,w20_sw_r_gyr.npy,C:\Masters\data\raw\mmfit\w20\w20_sw_r_gyr.npy,.npy,sw,r,gyr,"(323314, 5)",float64
+w20,w20_sw_r_hr.npy,C:\Masters\data\raw\mmfit\w20\w20_sw_r_hr.npy,.npy,sw,r,hr,"(2984, 3)",float64

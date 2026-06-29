@@ -1,0 +1,78 @@
+MM-Fit Dataset Summary
+
+Overview
+- MM-Fit is a multimodal fitness dataset.
+- It contains synchronized wearable sensor data, phone sensor data, earbud data, body pose data, and exercise labels.
+- The dataset includes 21 participants, labeled from w00 to w20.
+- Each participant is stored in a separate folder.
+
+Folder and File Structure
+- Each participant folder contains multiple .npy sensor files.
+- Each folder also includes one label CSV file.
+- These files describe the exercise segments and recorded signals.
+
+File Naming
+- File names show the participant, sensor source, body side, and signal type.
+- Example: w00_sw_l_acc.npy means participant w00, smartwatch, left side, accelerometer.
+- Common abbreviations:
+  - sw = smartwatch
+  - sp = smartphone
+  - eb = earbud
+  - acc = accelerometer
+  - gyr = gyroscope
+  - mag = magnetometer
+  - hr = heart rate
+  - pose_2d / pose_3d = body pose
+
+Sensor Modalities
+- Smartwatch data
+- Smartphone data
+- Earbud data
+- Pose data
+- Label data
+
+Smartwatch Data
+- Includes left and right wrist accelerometer, gyroscope, and heart-rate signals.
+- Useful for movement analysis and exercise intensity estimation.
+
+Smartphone Data
+- Includes accelerometer, gyroscope, and magnetometer signals.
+- Useful for orientation and movement-based activity recognition.
+
+Earbud Data
+- Contains left-side accelerometer and gyroscope data.
+- Adds another movement signal for multimodal analysis.
+
+Pose Data
+- Includes pose_2d.npy and pose_3d.npy files.
+- Represents body joint positions over time.
+- Useful for studying movement quality, posture, and joint motion.
+
+Label Data
+- Each participant has a labels CSV file, such as w00_labels.csv.
+- Each row includes the start time, end time, repetition count, and exercise name.
+- This links the sensor data to the actual exercise performed.
+
+Data Format
+- Most sensor data is stored as .npy NumPy arrays.
+- These arrays often include time, timestamps, and x/y/z sensor values.
+- Heart-rate files usually contain time and heart-rate values.
+- Pose files store body joint coordinates over time.
+
+Exercises
+- The dataset includes exercises such as squats, pushups, and dumbbell shoulder press.
+- Additional exercises may appear depending on the participant labels.
+
+Why MM-Fit Is Useful
+- It is truly multimodal.
+- It combines wrist movement, phone movement, earbud movement, heart rate, 2D pose, 3D pose, and exercise labels.
+- This makes it useful for comparing modalities and testing multimodal machine learning systems.
+
+Preprocessed Version
+- Raw MM-Fit files can be converted into a simpler feature table.
+- Each row may represent one exercise window.
+- Features may include heart-rate trends, accelerometer magnitude, gyroscope magnitude, cadence, range of motion, posture, symmetry, and joint speed.
+
+Simple Summary
+- MM-Fit records people performing exercises while multiple sensors capture movement and pose information.
+- It is especially useful for wearable-only, pose-only, and multimodal machine learning pipelines.

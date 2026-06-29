@@ -1,0 +1,11 @@
+,bicep_curls,dumbbell_rows,dumbbell_shoulder_press,jumping_jacks,lateral_shoulder_raises,lunges,pushups,situps,squats,tricep_extensions
+bicep_curls,6,2,1,0,1,0,0,0,0,2
+dumbbell_rows,1,5,1,0,1,0,0,2,2,1
+dumbbell_shoulder_press,1,1,5,0,0,1,1,2,0,1
+jumping_jacks,0,0,0,4,0,0,0,0,0,0
+lateral_shoulder_raises,3,3,1,0,2,1,1,0,0,0
+lunges,0,0,0,0,0,9,0,3,0,0
+pushups,2,2,1,1,0,0,5,0,2,0
+situps,1,2,0,0,0,6,0,2,0,2
+squats,0,3,1,0,0,0,0,0,9,0
+tricep_extensions,3,2,1,1,1,0,0,0,1,4

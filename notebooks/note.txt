@@ -1,0 +1,6 @@
+#
+#After extracting basic 3D pose-derived features for each labelled exercise segment, invalid pose windows were removed prior to modelling. A pose segment was treated as invalid when the labelled start/end frame range did not produce a usable pose sequence or when derived movement features contained missing values. This cleaning step reduced the dataset from 616 labelled exercise segments to 579 usable pose-feature rows. All 21 participants were retained. However, the removal of invalid windows affected class balance, particularly the jumping_jacks class, which was reduced to 22 usable samples. This imbalance was noted as a limitation for baseline classification and will be considered when interpreting model performance.
+#
+#
+#
+#

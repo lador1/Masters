@@ -1,0 +1,2 @@
+model,modality,rows_used,features_used,train_rows,test_rows,accuracy,macro_f1
+RandomForest,wearable_only_basic,616,40,492,124,0.9758064516129032,0.9769002849002849
