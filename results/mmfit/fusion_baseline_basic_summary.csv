@@ -1,0 +1,2 @@
+model,modality,rows_used,features_used,train_rows,test_rows,accuracy,macro_f1
+RandomForest,pose_wearable_fusion_basic,579,118,463,116,0.9741379310344828,0.9749565217391304

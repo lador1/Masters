@@ -1,0 +1,4 @@
+model,rows,features,accuracy,macro_f1
+Pose-only,579,82,0.44,0.45
+Wearable-only,616,40,0.9758,0.9769
+Fusion,579,118,0.9741,0.975
