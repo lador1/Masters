@@ -1,0 +1,99 @@
+SCRIPT 07 — MULTIMODAL FUSION
+
+Prediction task
+---------------
+Binary discrimination of A1 versus A3 within each exercise.
+
+A1 = first repeated attempt.
+A3 = third repeated attempt.
+
+A2 is excluded from this binary fusion experiment.
+
+The target is repeated-performance stage, NOT fatigue.
+
+Feature sets
+------------
+Pose: 4 features.
+Wearable: 4 features.
+HR: 1 feature.
+Pose + Wearable: 8 features.
+Pose + HR: 5 features.
+Wearable + HR: 5 features.
+Pose + Wearable + HR: 9 features.
+
+Matched cohort
+--------------
+Only HR-complete trajectories are used so all feature sets are evaluated
+on identical observations.
+
+154 complete trajectories.
+462 A1/A2/A3 rows originally.
+308 A1/A3 rows used for classification.
+9 true subjects overall.
+
+Exercise-specific models
+------------------------
+A separate model is trained for each exercise.
+
+Exercise identity is therefore not available as a shortcut for predicting
+attempt stage.
+
+Validation
+----------
+Leave-One-True-Subject-Out cross-validation.
+
+Every workout session belonging to the held-out true subject is excluded
+from training.
+
+This prevents subject/session leakage and evaluates generalisation to
+unseen participants.
+
+Repeated sessions
+-----------------
+Some true subjects completed multiple workout sessions.
+
+Training observations are sample-weighted so that each true subject
+contributes approximately equal total training weight.
+
+Classifier
+----------
+Random Forest.
+
+Fixed settings:
+n_estimators = 500
+random_state = 42
+n_jobs = -1
+class_weight = balanced_subsample
+max_features = sqrt
+
+No hyperparameter optimisation is performed.
+
+Metrics
+-------
+Primary:
+Balanced accuracy
+Macro F1
+
+Supporting:
+ROC-AUC
+Accuracy
+
+Pooled out-of-fold predictions are used for primary exercise/model metrics.
+
+Fold-level metrics are also retained to show variability across held-out
+subjects.
+
+Fusion gain
+-----------
+Fusion gain is calculated as a direct difference in predictive performance.
+
+No arbitrary fusion or sensitivity score is created.
+
+Interpretation
+--------------
+If a fused feature set performs better than the relevant individual
+modalities under the same LOSO folds, this supports the conclusion that
+the combined modalities provide complementary information for
+discriminating early versus late repeated attempts.
+
+It does NOT demonstrate fatigue detection.

@@ -1,0 +1,8 @@
+model,true_A1_predicted_A1,true_A1_predicted_A3,true_A3_predicted_A1,true_A3_predicted_A3,total_predictions
+Pose,91,63,60,94,308
+Wearable,95,59,88,66,308
+HR,88,66,69,85,308
+Pose+Wearable,101,53,76,78,308
+Pose+HR,102,52,61,93,308
+Wearable+HR,95,59,83,71,308
+Pose+Wearable+HR,105,49,69,85,308

@@ -1,0 +1,42 @@
+SCRIPT 04 — POSE VS WEARABLE MODALITY COMPARISON
+
+Purpose:
+Compare the sensitivity of the frozen pose and wearable feature groups
+to repeated-performance change across exercises.
+
+Input:
+02_pose_watch_feature_change_summary.csv
+
+Feature groups:
+Pose = 4 frozen whole-body pose summary features.
+Wearable = 4 frozen bilateral smartwatch inertial summary features.
+
+No new features were introduced.
+
+Primary descriptive modality metrics:
+1. Median absolute paired Cohen's dz across the four features.
+2. Median endpoint directional consistency across the four features.
+3. Median monotonic A1-A2-A3 consistency across the four features.
+
+Supporting metric:
+Median absolute percentage change.
+
+Percentage change is not used alone for modality comparison because
+feature scale and construction differ between pose and wearable signals.
+
+No combined sensitivity score was created.
+
+No statistical significance test was performed.
+
+No threshold such as dz > 0.5 or consistency > 70% was introduced
+to classify features as successful or unsuccessful.
+
+Heart rate was intentionally excluded and will be analysed separately.
+
+Interpretation limitation:
+The feature/exercise comparisons are not independent observations.
+Overall modality summaries are descriptive and must not be interpreted
+as inferential evidence that one modality is statistically superior.
+
+The purpose is to identify whether sensitivity differs by exercise and
+whether Pose and Wearable appear to capture complementary patterns.

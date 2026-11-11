@@ -1,0 +1,10 @@
+exercise,highest_observed_balanced_accuracy,model_or_models,n_tied_models
+bicep_curls,0.7666666666666666,Pose,1
+dumbbell_rows,0.6666666666666667,Pose,1
+dumbbell_shoulder_press,0.6176470588235294,Pose+HR,1
+lateral_shoulder_raises,0.6666666666666666,Pose+Wearable | Pose+Wearable+HR,2
+lunges,0.5882352941176471,HR | Wearable | Wearable+HR,3
+pushups,0.6666666666666667,Wearable,1
+situps,0.7222222222222222,Pose+HR,1
+squats,0.8055555555555556,Wearable+HR,1
+tricep_extensions,0.7222222222222222,Pose+Wearable+HR,1

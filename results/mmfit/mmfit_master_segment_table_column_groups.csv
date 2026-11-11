@@ -1,0 +1,169 @@
+column,group,description
+segment_id,metadata,"Segment identity, participant, timing, reps, or exercise label"
+participant,metadata,"Segment identity, participant, timing, reps, or exercise label"
+participant_segment_number,metadata,"Segment identity, participant, timing, reps, or exercise label"
+start_time,metadata,"Segment identity, participant, timing, reps, or exercise label"
+end_time,metadata,"Segment identity, participant, timing, reps, or exercise label"
+duration,metadata,"Segment identity, participant, timing, reps, or exercise label"
+reps,metadata,"Segment identity, participant, timing, reps, or exercise label"
+exercise,metadata,"Segment identity, participant, timing, reps, or exercise label"
+pose_valid,pose,Pose-derived movement-quality feature
+pose_frames,pose,Pose-derived movement-quality feature
+pose_joint_count,pose,Pose-derived movement-quality feature
+joint_00_range,pose,Pose-derived movement-quality feature
+joint_00_speed_mean,pose,Pose-derived movement-quality feature
+joint_00_speed_std,pose,Pose-derived movement-quality feature
+joint_00_speed_max,pose,Pose-derived movement-quality feature
+joint_01_range,pose,Pose-derived movement-quality feature
+joint_01_speed_mean,pose,Pose-derived movement-quality feature
+joint_01_speed_std,pose,Pose-derived movement-quality feature
+joint_01_speed_max,pose,Pose-derived movement-quality feature
+joint_02_range,pose,Pose-derived movement-quality feature
+joint_02_speed_mean,pose,Pose-derived movement-quality feature
+joint_02_speed_std,pose,Pose-derived movement-quality feature
+joint_02_speed_max,pose,Pose-derived movement-quality feature
+joint_03_range,pose,Pose-derived movement-quality feature
+joint_03_speed_mean,pose,Pose-derived movement-quality feature
+joint_03_speed_std,pose,Pose-derived movement-quality feature
+joint_03_speed_max,pose,Pose-derived movement-quality feature
+joint_04_range,pose,Pose-derived movement-quality feature
+joint_04_speed_mean,pose,Pose-derived movement-quality feature
+joint_04_speed_std,pose,Pose-derived movement-quality feature
+joint_04_speed_max,pose,Pose-derived movement-quality feature
+joint_05_range,pose,Pose-derived movement-quality feature
+joint_05_speed_mean,pose,Pose-derived movement-quality feature
+joint_05_speed_std,pose,Pose-derived movement-quality feature
+joint_05_speed_max,pose,Pose-derived movement-quality feature
+joint_06_range,pose,Pose-derived movement-quality feature
+joint_06_speed_mean,pose,Pose-derived movement-quality feature
+joint_06_speed_std,pose,Pose-derived movement-quality feature
+joint_06_speed_max,pose,Pose-derived movement-quality feature
+joint_07_range,pose,Pose-derived movement-quality feature
+joint_07_speed_mean,pose,Pose-derived movement-quality feature
+joint_07_speed_std,pose,Pose-derived movement-quality feature
+joint_07_speed_max,pose,Pose-derived movement-quality feature
+joint_08_range,pose,Pose-derived movement-quality feature
+joint_08_speed_mean,pose,Pose-derived movement-quality feature
+joint_08_speed_std,pose,Pose-derived movement-quality feature
+joint_08_speed_max,pose,Pose-derived movement-quality feature
+joint_09_range,pose,Pose-derived movement-quality feature
+joint_09_speed_mean,pose,Pose-derived movement-quality feature
+joint_09_speed_std,pose,Pose-derived movement-quality feature
+joint_09_speed_max,pose,Pose-derived movement-quality feature
+joint_10_range,pose,Pose-derived movement-quality feature
+joint_10_speed_mean,pose,Pose-derived movement-quality feature
+joint_10_speed_std,pose,Pose-derived movement-quality feature
+joint_10_speed_max,pose,Pose-derived movement-quality feature
+joint_11_range,pose,Pose-derived movement-quality feature
+joint_11_speed_mean,pose,Pose-derived movement-quality feature
+joint_11_speed_std,pose,Pose-derived movement-quality feature
+joint_11_speed_max,pose,Pose-derived movement-quality feature
+joint_12_range,pose,Pose-derived movement-quality feature
+joint_12_speed_mean,pose,Pose-derived movement-quality feature
+joint_12_speed_std,pose,Pose-derived movement-quality feature
+joint_12_speed_max,pose,Pose-derived movement-quality feature
+joint_13_range,pose,Pose-derived movement-quality feature
+joint_13_speed_mean,pose,Pose-derived movement-quality feature
+joint_13_speed_std,pose,Pose-derived movement-quality feature
+joint_13_speed_max,pose,Pose-derived movement-quality feature
+joint_14_range,pose,Pose-derived movement-quality feature
+joint_14_speed_mean,pose,Pose-derived movement-quality feature
+joint_14_speed_std,pose,Pose-derived movement-quality feature
+joint_14_speed_max,pose,Pose-derived movement-quality feature
+joint_15_range,pose,Pose-derived movement-quality feature
+joint_15_speed_mean,pose,Pose-derived movement-quality feature
+joint_15_speed_std,pose,Pose-derived movement-quality feature
+joint_15_speed_max,pose,Pose-derived movement-quality feature
+joint_16_range,pose,Pose-derived movement-quality feature
+joint_16_speed_mean,pose,Pose-derived movement-quality feature
+joint_16_speed_std,pose,Pose-derived movement-quality feature
+joint_16_speed_max,pose,Pose-derived movement-quality feature
+pose_movement_mean,pose,Pose-derived movement-quality feature
+pose_movement_std,pose,Pose-derived movement-quality feature
+pose_movement_max,pose,Pose-derived movement-quality feature
+pose_range_mean,pose,Pose-derived movement-quality feature
+pose_range_std,pose,Pose-derived movement-quality feature
+pose_range_max,pose,Pose-derived movement-quality feature
+pose_stability_proxy,pose,Pose-derived movement-quality feature
+pose_stability_std,pose,Pose-derived movement-quality feature
+pose_stability_max,pose,Pose-derived movement-quality feature
+sw_l_acc_valid,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_count,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_mag_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_mag_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_mag_min,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_mag_max,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_x_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_y_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_z_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_x_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_y_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_acc_z_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_valid,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_count,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_mag_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_mag_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_mag_min,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_mag_max,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_x_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_y_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_z_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_x_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_y_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_acc_z_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_valid,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_count,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_mag_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_mag_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_mag_min,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_mag_max,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_x_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_y_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_z_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_x_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_y_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_gyr_z_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_valid,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_count,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_mag_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_mag_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_mag_min,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_mag_max,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_x_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_y_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_z_mean,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_x_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_y_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_r_gyr_z_std,wearable_acc_gyr,Smartwatch accelerometer or gyroscope feature
+sw_l_hr_valid,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_n,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_mean,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_std,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_min,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_max,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_range,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_change,raw_heart_rate,Original left/right heart-rate feature
+sw_l_hr_slope,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_valid,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_n,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_mean,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_std,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_min,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_max,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_range,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_change,raw_heart_rate,Original left/right heart-rate feature
+sw_r_hr_slope,raw_heart_rate,Original left/right heart-rate feature
+hr_mean_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_std_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_min_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_max_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_range_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_change_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_slope_combined,combined_heart_rate,Cleaned combined heart-rate feature
+hr_left_available,heart_rate_quality,Heart-rate availability or reliability flag
+hr_right_available,heart_rate_quality,Heart-rate availability or reliability flag
+hr_any_available,heart_rate_quality,Heart-rate availability or reliability flag
+hr_both_available,heart_rate_quality,Heart-rate availability or reliability flag
+hr_left_right_diff,heart_rate_quality,Heart-rate availability or reliability flag
+hr_disagreement_flag,heart_rate_quality,Heart-rate availability or reliability flag
+hr_quality_flag,heart_rate_quality,Heart-rate availability or reliability flag

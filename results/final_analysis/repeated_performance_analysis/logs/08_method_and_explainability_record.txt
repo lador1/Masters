@@ -1,0 +1,102 @@
+SCRIPT 08 — FUSION EVALUATION AND VISUALISATION
+
+Purpose
+-------
+Evaluate the frozen Script 07 multimodal classification experiment.
+
+No models were retrained.
+
+No hyperparameters were changed.
+
+No feature selection was performed.
+
+No additional classifiers were tested.
+
+Classification target
+---------------------
+A1 = chronologically first exercise attempt.
+A3 = chronologically third exercise attempt.
+
+These labels are determined entirely by exercise order.
+
+Sensor measurements, medians, effect sizes and heart-rate values do
+not determine whether a row is labelled A1 or A3.
+
+Therefore the classification experiment is not circular with respect
+to the sensor features.
+
+A3 is NOT assumed to represent fatigue.
+
+The classification task tests whether sensor measurements contain
+information associated with repeated-performance stage.
+
+Validation
+----------
+All performance values originate from Leave-One-True-Subject-Out
+cross-validation performed in Script 07.
+
+Every prediction therefore comes from a model that was not trained
+using any workout session belonging to that test subject.
+
+Metrics
+-------
+Balanced accuracy:
+Average of sensitivity to A1 and sensitivity to A3.
+
+Macro F1:
+F1 score calculated separately for A1 and A3 and then averaged.
+
+ROC-AUC:
+Measures ranking/discrimination using predicted A3 probabilities.
+
+Balanced accuracy and Macro F1 are treated as the primary metrics.
+
+Fusion gain
+-----------
+Fusion gain is a simple arithmetic difference between model performance.
+
+Examples:
+
+Pose+Wearable gain =
+Pose+Wearable balanced accuracy
+minus
+the higher balanced accuracy of Pose and Wearable individually.
+
+All-modality gain =
+Pose+Wearable+HR balanced accuracy
+minus
+the strongest individual modality.
+
+A positive number means the fused feature set achieved a numerically
+higher score.
+
+A negative number means it achieved a numerically lower score.
+
+A zero indicates an observed tie.
+
+These differences are descriptive and do not establish statistical
+superiority.
+
+Interpretation
+--------------
+The experiment evaluates whether combined sensor measurements improve
+subject-independent discrimination of early versus late repeated
+exercise attempts.
+
+It does NOT evaluate fatigue classification.
+
+It does NOT establish clinical deterioration.
+
+It does NOT establish that a modality is universally superior.
+
+Because only 7-9 true subjects are available per exercise within the
+HR-complete cohort, results are interpreted as proof-of-concept
+subject-independent evidence.
+
+Aggregate confusion matrices
+----------------------------
+Confusion matrices combine out-of-fold predictions from the separate
+exercise-specific models.
+
+They provide an overall error summary but do not represent one global
+classifier trained across all exercises.

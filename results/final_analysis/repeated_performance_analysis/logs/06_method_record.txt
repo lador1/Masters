@@ -1,0 +1,76 @@
+SCRIPT 06 — MATCHED POSE / WEARABLE / HEART-RATE COMPARISON
+
+Purpose
+-------
+Provide a fair descriptive comparison of the three sensing modalities.
+
+Reason for matched cohort
+-------------------------
+Pose and wearable analyses originally contained 181 complete trajectories.
+Heart rate contained only 154 complete trajectories.
+
+All three modalities were therefore recalculated using only the same
+154 HR-complete trajectories.
+
+Matched cohort
+--------------
+462 rows
+154 complete A1/A2/A3 workout/exercise trajectories
+9 true subjects
+9 exercises
+
+Feature groups
+--------------
+Pose:
+4 frozen whole-body pose summary features.
+
+Wearable:
+4 frozen bilateral smartwatch inertial summary features.
+
+Physiological:
+1 combined mean heart-rate feature.
+
+Metrics
+-------
+Feature-level:
+- A1/A2/A3 values
+- paired A3-A1 change
+- percentage change
+- endpoint directional consistency
+- monotonic A1-A2-A3 consistency
+- paired Cohen's dz
+
+Exercise-level modality summary
+-------------------------------
+Pose and Wearable:
+median metric across the four frozen features.
+
+Heart Rate:
+the single HR feature itself.
+
+Interpretation limitation
+-------------------------
+Heart Rate consists of one feature whereas Pose and Wearable consist
+of four features each.
+
+Therefore the numerical modality summaries do NOT constitute proof
+that one modality is superior to another.
+
+They describe responsiveness of the selected measurements to repeated
+performance on the same trajectories.
+
+No combined sensitivity score was created.
+
+No significance threshold was introduced.
+
+No fatigue or behavioural-state inference was performed.
+
+Fusion
+------
+Fusion is NOT performed in Script 06.
+
+Later fusion analysis will combine the ORIGINAL attempt-level sensor
+features and test whether multimodal input improves discrimination of
+A1 versus A3 under true-subject held-out validation.
+
+Cohen's dz values are never fused.

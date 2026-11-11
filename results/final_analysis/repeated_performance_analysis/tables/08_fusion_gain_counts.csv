@@ -1,0 +1,4 @@
+comparison,numerical_improvement,tie,numerical_reduction
+Pose+Wearable vs best Pose/Watch,1,2,6
+All modalities vs best single modality,2,2,5
+Adding HR to Pose+Wearable,4,4,1

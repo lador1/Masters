@@ -1,0 +1,15 @@
+figure,purpose
+03_QC_duration_progression.png,QC check for segment-duration differences across A1/A2/A3.
+03_QC_repetition_progression.png,QC check for labelled repetition-count differences across A1/A2/A3.
+03_pose_effect_size_heatmap.png,Complete cross-exercise pose effect-size overview.
+03_watch_effect_size_heatmap.png,Complete cross-exercise wearable effect-size overview.
+03_pose_direction_consistency_heatmap.png,Complete cross-exercise pose directional-consistency overview.
+03_watch_direction_consistency_heatmap.png,Complete cross-exercise wearable directional-consistency overview.
+03_progression_pose_movement_mean.png,Paired A1-normalised progression across all exercises for pose_movement_mean.
+03_progression_pose_movement_std.png,Paired A1-normalised progression across all exercises for pose_movement_std.
+03_progression_pose_movement_max.png,Paired A1-normalised progression across all exercises for pose_movement_max.
+03_progression_pose_range_mean.png,Paired A1-normalised progression across all exercises for pose_range_mean.
+03_progression_watch_acc_mag_mean.png,Paired A1-normalised progression across all exercises for watch_acc_mag_mean.
+03_progression_watch_acc_mag_std.png,Paired A1-normalised progression across all exercises for watch_acc_mag_std.
+03_progression_watch_gyr_mag_mean.png,Paired A1-normalised progression across all exercises for watch_gyr_mag_mean.
+03_progression_watch_gyr_mag_std.png,Paired A1-normalised progression across all exercises for watch_gyr_mag_std.

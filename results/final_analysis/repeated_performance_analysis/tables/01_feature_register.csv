@@ -1,0 +1,10 @@
+feature,modality,source_or_formula,interpretation
+pose_movement_mean,Pose,pose_movement_mean,Average whole-body frame-to-frame skeletal movement
+pose_movement_std,Pose,pose_movement_std,Variability in whole-body skeletal movement
+pose_movement_max,Pose,pose_movement_max,Maximum observed whole-body skeletal movement
+pose_range_mean,Pose,pose_range_mean,Average movement range across pose joints
+watch_acc_mag_mean,Wearable,(sw_l_acc_mag_mean + sw_r_acc_mag_mean) / 2,Average bilateral wrist acceleration magnitude
+watch_acc_mag_std,Wearable,(sw_l_acc_mag_std + sw_r_acc_mag_std) / 2,Average bilateral variability in wrist acceleration magnitude
+watch_gyr_mag_mean,Wearable,(sw_l_gyr_mag_mean + sw_r_gyr_mag_mean) / 2,Average bilateral wrist rotational movement
+watch_gyr_mag_std,Wearable,(sw_l_gyr_mag_std + sw_r_gyr_mag_std) / 2,Average bilateral variability in wrist rotational movement
+hr_mean_combined,Physiological,hr_mean_combined,Mean combined heart rate during the exercise segment

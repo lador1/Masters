@@ -1,0 +1,16 @@
+feature_family,calculation,units,notes
+Knee internal angle,acos(((hip-knee) dot (foot-knee)) / (||hip-knee|| * ||foot-knee||)),degrees,Calculated separately for left and right knee.
+Knee flexion,180 - knee internal angle,degrees,Larger value represents greater knee flexion.
+Hip angle proxy,acos(((thorax-hip) dot (knee-hip)) / (||thorax-hip|| * ||knee-hip||)),degrees,Body-pose-derived hip flexion proxy.
+Bilateral asymmetry,100 * |left-right| / ((|left|+|right|)/2),percent,Calculated where the denominator is non-zero.
+Horizontal separation,sqrt((x_left-x_right)^2 + (z_left-z_right)^2),pose coordinate units,Y is treated as the vertical axis.
+Knee-to-stance ratio,horizontal knee separation / horizontal foot separation,ratio,Used as a knee-separation / valgus-type proxy only.
+Relative squat depth proxy,|hip-root vertical coordinate - mean foot vertical coordinate|,pose coordinate units,"Body-relative posture measure, not laboratory absolute squat depth."
+Velocity,dp/dt,pose units per second,Calculated using numerical gradient at 30 Hz.
+Acceleration,d2p/dt2,pose units per second squared,Second numerical derivative of smoothed position.
+Jerk,d3p/dt3,pose units per second cubed,Third numerical derivative of smoothed position.
+Path length,sum(||p[t]-p[t-1]||),pose coordinate units,Total trajectory distance.
+Cyclic path efficiency,(distance start-to-farthest + distance farthest-to-end) / actual path length,ratio,Designed for repeated out-and-back motion.
+Log dimensionless jerk,-ln((T^5/A^2) * integral(jerk^2 dt)),dimensionless,A is movement amplitude. Larger values indicate smoother motion.
+Repetition duration,(rep end frame - rep start frame) / 30,seconds,Repetitions segmented from PCA periodic motion signal.
+Rep consistency,100 * standard deviation / absolute mean,percent CV,"Applied to duration, depth, knee flexion and other rep metrics."

@@ -1,0 +1,31 @@
+SCRIPT 02 — REPEATED-PERFORMANCE CHANGE ANALYSIS
+
+Primary unit:
+One workout_session + exercise trajectory containing A1, A2 and A3.
+
+POSE/WATCH COHORT:
+All complete A1/A2/A3 trajectories from Script 01.
+
+HEART-RATE COHORT:
+Only complete A1/A2/A3 trajectories with hr_mean_combined available
+at all three attempts.
+
+Metrics:
+1. A1/A2/A3 median and IQR.
+2. Paired A3-A1 change.
+3. Paired percentage change: ((A3-A1)/A1)*100.
+4. Dominant direction determined from sign of median paired A3-A1 change.
+5. Endpoint directional consistency:
+   proportion of trajectories changing in the dominant endpoint direction.
+6. Monotonic consistency:
+   for an increase: A1 <= A2 <= A3 and A3 > A1;
+   for a decrease: A1 >= A2 >= A3 and A3 < A1.
+7. Paired Cohen's dz:
+   mean(A3-A1) / SD(A3-A1).
+
+Interpretation:
+These metrics describe repeated-performance change.
+They do not independently identify fatigue, engagement, frustration,
+clinical deterioration, or any other behavioural/clinical state.
+
+No significance tests are performed in Script 02.

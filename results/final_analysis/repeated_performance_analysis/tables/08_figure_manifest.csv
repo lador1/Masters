@@ -1,0 +1,6 @@
+figure,purpose
+08_fusion_balanced_accuracy_heatmap.png,Exercise-specific balanced accuracy for all seven feature sets.
+08_fusion_macro_f1_heatmap.png,Exercise-specific Macro F1 for all seven feature sets.
+08_fusion_roc_auc_heatmap.png,Exercise-specific ROC-AUC for all seven feature sets.
+08_fusion_gain_balanced_accuracy.png,Shows whether selected fusion combinations numerically improved or reduced balanced accuracy.
+08_balanced_accuracy_distribution.png,Shows the distribution of balanced accuracy across the nine exercises for each feature set.

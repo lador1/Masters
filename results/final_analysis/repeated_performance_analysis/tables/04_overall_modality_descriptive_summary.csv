@@ -1,0 +1,3 @@
+modality,n_feature_exercise_comparisons,n_exercises,median_absolute_dz,mean_absolute_dz,median_endpoint_consistency_percent,mean_endpoint_consistency_percent,median_monotonic_consistency_percent,mean_monotonic_consistency_percent,median_absolute_percent_change
+Pose,36,9,0.29772169506468393,0.35554529312311933,61.90476190476191,64.40255731922399,28.57142857142857,28.996913580246915,29.781649526227785
+Wearable,36,9,0.3655130592462025,0.4055108092759184,64.28571428571428,65.96340388007054,33.33333333333333,33.0379188712522,3.0042249983866642

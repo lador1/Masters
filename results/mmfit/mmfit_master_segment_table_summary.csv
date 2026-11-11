@@ -1,0 +1,11 @@
+metric,value,description
+total_rows,579,Total exercise segments in the master table
+total_columns,168,Total feature and metadata columns
+participants,21,Number of participants
+exercise_classes,10,Number of exercise types
+pose_columns,80,Pose-derived movement-quality feature columns
+wearable_columns,48,Smartwatch accelerometer and gyroscope feature columns
+raw_hr_columns,18,Original left/right heart-rate feature columns
+combined_hr_columns,7,Cleaned combined heart-rate feature columns
+segments_with_any_hr,495,Segments where at least one HR signal is available
+segments_with_hr_disagreement,66,Segments where left/right HR differ by more than 20 bpm

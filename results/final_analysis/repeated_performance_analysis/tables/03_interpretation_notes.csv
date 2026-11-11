@@ -1,0 +1,6 @@
+item,note
+watch_acc_mag_mean,"Mean resultant acceleration is approximately 9.8-10 m/s^2 across exercises. This strongly suggests the static gravitational component remains present. Retain the feature for reproducibility, but do not describe it as pure dynamic movement intensity. Interpret absolute changes cautiously."
+watch_acc_mag_std,Variability of resultant acceleration is less dominated by the constant gravitational component and is therefore a more direct descriptor of changes in dynamic wrist motion.
+paired_cohens_dz,A large absolute dz can occur even when the absolute or percentage change is small if within-trajectory changes are highly consistent. Effect size must therefore be interpreted with change magnitude and directional consistency.
+pose_range_mean,"Large changes in pose range require comparison with segment duration and labelled repetition count before biomechanical interpretation, because segment composition may influence range-based summaries."
+heart_rate,Heart rate remains excluded from Script 03 movement figures and is retained as a separate physiological analysis.

@@ -1,0 +1,54 @@
+SCRIPT 05 — HEART-RATE PHYSIOLOGICAL CONTRIBUTION
+
+Purpose:
+Evaluate heart-rate change across repeated exercise attempts while
+preserving heart rate as a separate physiological modality.
+
+Primary HR cohort:
+Only workout/exercise trajectories containing heart-rate data at
+A1, A2 and A3.
+
+The pose and wearable datasets are NOT reduced globally.
+The HR-complete subset is created separately.
+
+Primary interpretation:
+Heart-rate change represents physiological response across repeated
+exercise performance.
+
+Heart rate is NOT treated as:
+- a fatigue label,
+- an engagement label,
+- a deterioration label,
+- a clinical outcome.
+
+Metrics:
+- A1, A2 and A3 heart-rate medians
+- paired A1-to-A3 change in bpm
+- paired percentage change
+- directional consistency
+- A1-to-A2-to-A3 progression
+- paired Cohen's dz
+
+Secondary subject-level check:
+Some MM-Fit subjects completed multiple workout sessions.
+A secondary summary therefore averages repeated workout sessions
+within true subject + exercise + attempt before calculating A1-to-A3
+change. This prevents subjects with multiple sessions from contributing
+multiple times to that secondary descriptive check.
+
+Matched multimodal cohort:
+A separate dataset is created containing only HR-complete trajectories,
+while retaining all four pose features, all four wearable features,
+and heart rate.
+
+This matched dataset will later support a fair comparison of:
+- Pose
+- Wearable
+- HR
+- Pose + Wearable
+- Pose + Wearable + HR
+
+Fusion interpretation:
+Fusion will operate on the original attempt-level sensor features.
+Cohen's dz values are NOT fused and no artificial multimodal sensitivity
+score is created.
