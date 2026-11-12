@@ -1,0 +1,40 @@
+
+name: Check MM-Fit Pose Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-pose:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install NumPy
+        run: python -m pip install numpy
+
+      - name: Verify all pose recordings
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import numpy as np
+
+          folder = Path("data/raw/mmfit")
+          files = sorted(folder.glob("w*/w*_pose_3d.npy"))
+
+          print("Pose files found:", len(files))
+
+          for file in files:
+              data = np.load(file, mmap_mode="r")
+              print(file.name, data.shape)
+
+          assert len(files) == 21, "Expected 21 pose files"
+          print("All pose files verified successfully!")
+          PY
